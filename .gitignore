@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Generated data (can be regenerated via generate_site_data.py)
+Frontend/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+
+# Build/test scripts not needed for deployment
+customize_template.py
+test_site.py
+_playwright_test.js
+_deep_test.js
