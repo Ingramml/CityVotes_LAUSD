@@ -1,8 +1,6 @@
 # Dependencies
 node_modules/
 
-# Generated data can be regenerated via: python3 generate_site_data.py
-# But must be committed for Vercel deployment
 
 # OS files
 .DS_Store
@@ -18,8 +16,8 @@ Thumbs.db
 __pycache__/
 *.pyc
 
-# Build/test scripts not needed for deployment
-customize_template.py
-test_site.py
+# Temp test files
 _playwright_test.js
 _deep_test.js
+
+tempalte/*
